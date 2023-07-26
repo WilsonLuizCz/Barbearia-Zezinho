@@ -82,7 +82,7 @@
   background-color: var(--cor5);
 }
 #section2{
-  background-image: url(../img/bg-tijolos2.jpg);
+  background-image: url(/img/bg-tijolos2.jpg);
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
