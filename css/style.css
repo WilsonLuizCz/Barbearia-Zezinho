@@ -32,8 +32,21 @@
   color: var(--cor1);
   transition-delay: 0.2s;
 }
-#titulo {
+#section1 {
+  background-color: var(--cor2);
+  text-shadow: 1px 1px 1px ;
+}
+#titulo1 {
   font-family: var(--fonte-titulo);
+  font-size: 1.8rem;
+  color: var(--cor0);
+  text-shadow: 1px 1px 1px black;
+
+}
+#texto1 {
+  font-family: var(--fonte-texto);
+  font-size: 1.3rem;
+  text-align: justify;
   color: var(--cor4);
 }
 #btn {
@@ -55,6 +68,17 @@
 }
 #logo {
   width: 18px; 
+}
+
+#secrtion1{
+  background-color: var(--cor5);
+}
+#img2 {
+  width: 100px;
+  margin-bottom: 30px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 @media (max-width: 450px) {
