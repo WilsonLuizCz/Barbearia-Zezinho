@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor0: #419bc5;
+  --cor1: red;
+  --cor2: black;
+  --cor3: rgb(1, 1, 138);
+  --cor4: white;
+  --cor5: rgb(230, 225, 225);
+
+  --fonte-texto: "Dosis", sans-serif;
+  --fonte-subtitulo: "Patua One", cursive;
+  --fonte-titulo: "Rye", cursive;
+}
