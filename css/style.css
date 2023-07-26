@@ -109,7 +109,7 @@
   background-color: var(--cor5);
 }
 #section2 {
-  background-image: url(img/bg-tijolos2.jpg);
+  background-image: url(../img/bg-tijolos2.jpg);
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,42 +128,42 @@
   border: 2px solid #ffff;
 }
 #card1 {
-  background-image: url(img/bg-card-1-over.jpg);
+  background-image: url(../img/bg-card-1-over.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: static;
 }
 #card2 {
-  background-image: url(img/bg-card-2-over.jpg);
+  background-image: url(../img/bg-card-2-over.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: static;
 }
 #card3 {
-  background-image: url(img/bg-card-3-over.jpg);
+  background-image: url(../img/bg-card-3-over.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: static;
 }
 #card4 {
-  background-image: url(img/bg-card-4-over.jpg);
+  background-image: url(../img/bg-card-4-over.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: static;
 }
 #card5 {
-  background-image: url(img/bg-card-1-over.jpg);
+  background-image: url(../img/bg-card-1-over.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: static;
 }
 #card6 {
-  background-image: url(img/bg-card-6-over.jpg);
+  background-image: url(../img/bg-card-6-over.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
