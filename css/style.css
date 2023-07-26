@@ -6,7 +6,7 @@
 
 :root {
   --cor0: #419bc5;
-  --cor1: red;
+  --cor1:rgb(221, 0, 0);
   --cor2: black;
   --cor3: rgb(1, 1, 138);
   --cor4: white;
@@ -15,4 +15,31 @@
   --fonte-texto: "Dosis", sans-serif;
   --fonte-subtitulo: "Patua One", cursive;
   --fonte-titulo: "Rye", cursive;
+}
+#nav {
+  background-color: var(--cor2);
+  font-family: var(--fonte-texto);
+}
+#menu {
+  color: var(--cor4);
+}
+#menu:hover {
+  color: var(--cor1);
+  transition-delay: 0.2s;
+}
+#titulo {
+  font-family: var(--fonte-titulo);
+  color: var(--cor0);
+}
+#btn {
+  background-color: var(--cor1);
+  color: var(--cor4);
+  border-radius: 10px;
+  padding:  1px 2px;
+  width: 140px;
+
+}
+#btn:hover {
+  background-color:var(--cor4);
+  color:  var(--cor1);
 }
