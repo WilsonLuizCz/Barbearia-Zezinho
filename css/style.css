@@ -6,7 +6,7 @@
 
 :root {
   --cor0: #419bc5;
-  --cor1:rgb(221, 0, 0);
+  --cor1: rgb(221, 0, 0);
   --cor2: black;
   --cor3: rgb(1, 1, 138);
   --cor4: white;
@@ -17,7 +17,13 @@
   --fonte-titulo: "Rye", cursive;
 }
 #nav {
-  background-image: linear-gradient(#398bb1,#2e799c,#2a6885,#204f64,#1b4558);
+  background-image: linear-gradient(
+    #398bb1,
+    #2e799c,
+    #2a6885,
+    #204f64,
+    #1b4558
+  );
   font-family: var(--fonte-texto);
 }
 #menu {
@@ -34,22 +40,19 @@
 }
 #section1 {
   background-color: var(--cor2);
-  text-shadow: 1px 1px 1px ;
+  text-shadow: 1px 1px 1px;
 }
 #titulo1 {
   font-family: var(--fonte-titulo);
   font-size: 2rem;
   color: var(--cor0);
   text-shadow: 1px 1px 1px black;
-
 }
 #titulo2 {
   font-family: var(--fonte-titulo);
   font-size: 2rem;
   color: var(--cor0);
   text-shadow: 1px 1px 1px #000000;
-  
-
 }
 #texto1 {
   font-family: var(--fonte-texto);
@@ -57,31 +60,55 @@
   text-align: justify;
   color: var(--cor4);
 }
+#texto2 {
+  font-family: var(--fonte-texto);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background-color: #000000e1;
+  padding: 1px;
+  border-radius: 10px;
+}
+#subtitulo {
+  font-family: var(--fonte-subtitulo);
+  color: var(--cor0);
+  text-shadow: 2px 1px 1px black ;
+  font-size: 1.5rem;
+}
 #btn {
   background-color: var(--cor1);
   color: var(--cor4);
   border-radius: 10px;
-  padding:  1px 2px;
+  padding: 1px 2px;
   width: 140px;
-
 }
 #btn:hover {
-  background-color:var(--cor4);
-  color:  var(--cor1);
+  background-color: var(--cor4);
+  color: var(--cor1);
+}
+#btn2 {
+  background-color: var(--cor1);
+  color: var(--cor4);
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+#btn2:hover {
+  background-color: var(--cor4);
+  color: var(--cor1);
 }
 #img {
   width: 100%;
   height: 80vh;
-  
 }
 #logo {
-  width: 18px; 
+  width: 18px;
 }
 
-#secrtion1{
+#secrtion1 {
   background-color: var(--cor5);
 }
-#section2{
+#section2 {
   background-image: url(/img/bg-tijolos2.jpg);
   position: absolute;
   background-repeat: no-repeat;
@@ -100,6 +127,48 @@
   border-radius: 50%;
   border: 2px solid #ffff;
 }
+#card1 {
+  background-image: url(/img/bg-card-1-over.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: static;
+}
+#card2 {
+  background-image: url(/img/bg-card-2-over.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: static;
+}
+#card3 {
+  background-image: url(/img/bg-card-3-over.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: static;
+}
+#card4 {
+  background-image: url(/img/bg-card-4-over.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: static;
+}
+#card5 {
+  background-image: url(/img/bg-card-1-over.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: static;
+}
+#card6 {
+  background-image: url(/img/bg-card-6-over.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: static;
+}
 
 @media (max-width: 450px) {
   #img {
@@ -107,4 +176,3 @@
     height: auto;
   }
 }
-
