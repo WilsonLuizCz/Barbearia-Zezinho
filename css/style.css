@@ -38,9 +38,17 @@
 }
 #titulo1 {
   font-family: var(--fonte-titulo);
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--cor0);
   text-shadow: 1px 1px 1px black;
+
+}
+#titulo2 {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  color: var(--cor0);
+  text-shadow: 1px 1px 1px #000000;
+  
 
 }
 #texto1 {
@@ -73,12 +81,24 @@
 #secrtion1{
   background-color: var(--cor5);
 }
+#section2{
+  background-image: url(../img/bg-tijolos2.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 #img2 {
   width: 100px;
   margin-bottom: 30px;
   padding: 8px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 8px;
+}
+#img3 {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #ffff;
 }
 
 @media (max-width: 450px) {
