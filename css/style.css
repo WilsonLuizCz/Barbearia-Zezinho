@@ -264,10 +264,19 @@
   padding: 20px;
   width: 300px;
 }
-#texto5 {
+#texto6 {
   font-family: var(--fonte-texto);
   font-size: 1rem;
   color: black;
+}
+#footer {
+  background-color: black;
+}
+#texto9 {
+  font-family: var(--fonte-texto);
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 2px;
 }
 @media (max-width: 970px) {
   #img {
