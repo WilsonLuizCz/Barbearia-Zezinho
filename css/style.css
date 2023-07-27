@@ -203,7 +203,7 @@
   
 }
 #carrosel {
-  height: 80vh;
+  height: 90vh;
 }
 #carrosel2 {
   height: 90vh;
@@ -216,6 +216,9 @@
   #img {
     width: auto;
     height: auto;
+  }
+  #carrosel {
+    height: 70vh;
   }
   #carrosel2 {
     height: 70vh;
