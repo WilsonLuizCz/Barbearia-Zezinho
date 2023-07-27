@@ -90,6 +90,11 @@
   color: var(--cor6);
   font-size: 1.8rem;
 }
+#subtitulo3 {
+  font-family: var(--fonte-subtitulo);
+  color: var(--cor3);
+  font-size: 1.5rem;
+}
 #btn {
   background-color: var(--cor1);
   color: var(--cor4);
@@ -210,8 +215,28 @@
   border: 2px solid white;
   border-radius: 8px;
 }
-
-
+#section5 {
+  background-color: #000000;
+}
+#card7 {
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  background-image: linear-gradient(
+    #398bb1,
+    #2e799c,
+    #2a6885,
+    #204f64,
+    #1b4558
+  );
+  
+}
+#divcard7 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 @media (max-width: 450px) {
   #img {
     width: auto;
@@ -224,6 +249,18 @@
     height: 50vh;
   }
 }
+#divwhats {
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  background-image: linear-gradient(
+    #398bb1,
+    #2e799c,
+    #2a6885,
+    #204f64,
+    #1b4558
+  );}
 
 @media (max-width: 970px) {
   #img {
