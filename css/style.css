@@ -267,7 +267,20 @@
   color: white;
   letter-spacing: 2px;
 }
-
+#red {
+  color: var(--cor1);
+ 
+}
+#btnred {
+  font-family: var(--fonte-texto);
+  color: var(--cor1);
+  border: 1px solid rgb(221, 0, 0);
+}
+#btnred:hover {
+  color: white;
+  background-color: var(--cor1);
+  border: 1px solid rgb(221, 0, 0);
+}
 @media (max-width: 450px) {
   #img {
     width: auto;
