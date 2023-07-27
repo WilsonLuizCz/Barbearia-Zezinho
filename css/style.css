@@ -63,6 +63,12 @@
   text-align: justify;
   color: var(--cor4);
 }
+#texto5 {
+  font-family: var(--fonte-texto);
+  font-size: 1.3rem;
+  text-align:center;
+  color: var(--cor4);
+}
 #texto2 {
   font-family: var(--fonte-texto);
   font-size: 1.1rem;
@@ -78,6 +84,11 @@
   color: var(--cor0);
   text-shadow: 2px 1px 1px black ;
   font-size: 1.5rem;
+}
+#subtitulo2 {
+  font-family: var(--fonte-subtitulo);
+  color: var(--cor6);
+  font-size: 1.8rem;
 }
 #btn {
   background-color: var(--cor1);
@@ -113,7 +124,7 @@
 }
 #section2 {
   background-image: url(../img/bg-tijolos2.jpg);
-  position: absolute;
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -129,6 +140,9 @@
   width: 150px;
   border-radius: 50%;
   border: 2px solid #ffff;
+}
+#img4{
+  width: 120px;
 }
 #card1 {
   background-image: url(../img/bg-card-1-over.jpg);
@@ -172,6 +186,22 @@
   background-position: center;
   background-size: static;
 }
+#section4 {
+  background-image: linear-gradient(
+    #398bb1,
+    #2e799c,
+    #2a6885,
+    #204f64,
+    #1b4558
+  );
+}
+#titulo3 {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  color: var(--cor1);
+  text-shadow: 1px 1px 1px black;
+  
+}
 
 @media (max-width: 450px) {
   #img {
@@ -179,6 +209,7 @@
     height: auto;
   }
 }
+
 @media (max-width: 970px) {
   #img {
     width: auto;
