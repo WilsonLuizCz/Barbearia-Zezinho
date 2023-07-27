@@ -202,11 +202,21 @@
   text-shadow: 1px 1px 1px black;
   
 }
+#carrosel {
+  height: 80vh;
+}
+#carrosel2 {
+  height: 90vh;
+}
+
 
 @media (max-width: 450px) {
   #img {
     width: auto;
     height: auto;
+  }
+  #carrosel2 {
+    height: 70vh;
   }
 }
 
